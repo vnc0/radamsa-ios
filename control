@@ -1,0 +1,10 @@
+Package: com.vnc0.radamsa
+Name: radamsa
+Depends: firmware (>= 7.0)
+Version: 0.7 
+Architecture: iphoneos-arm
+Description: General-purpose fuzzer
+Maintainer: Aki Helin <aohelin@gmail.com>
+Author: Aki Helin <aohelin@gmail.com>
+Section: System
+Tag: role::hacker
