@@ -17,7 +17,7 @@ if [ "$NEW_VERSION" = "-h" ]; then
 fi
 
 # Initialize and update the submodule
-git submodule init && git submodule update ./submodule || exit 1
+git submodule init && git submodule update $REPO_FOLDER || exit 1
 
 cd "$REPO_FOLDER" || exit 1
 git fetch origin $BRANCH 1>/dev/null || exit 1
